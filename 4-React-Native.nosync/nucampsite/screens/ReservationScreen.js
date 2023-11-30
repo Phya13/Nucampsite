@@ -31,7 +31,7 @@ const ReservationScreen = () => {
     setShowModal(!showModal);
   };
 
-  const resetFrom = () => {
+  const resetForm = () => {
     setCampers(1);
     setHikeIn(false);
     setDate(new Date());
@@ -85,7 +85,7 @@ const ReservationScreen = () => {
       <View style={styles.formRow}>
         <Button
           onPress={() => handleReservation()}
-          title="Search Availability!"
+          title="Search Availability"
           color="#5637DD"
           accessibilityLabel="Tap me to search for available campsites to reserve"
         />
@@ -108,7 +108,7 @@ const ReservationScreen = () => {
           <Button
             onPress={() => {
               setShowModal(!showModal);
-              resetFrom();
+              resetForm();
             }}
             color="#5637DD"
             title="Close"
