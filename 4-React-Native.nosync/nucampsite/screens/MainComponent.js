@@ -234,10 +234,10 @@ const Main = () => {
           }}
         />
         <Drawer.Screen
-          name="About"
+          name="About "
           component={AboutNavigator}
           options={{
-            title: "About",
+            title: "About ",
             drawerIcon: ({ color }) => (
               <Icon
                 name="info-circle"
